@@ -1,0 +1,6 @@
+- name: Apply baseline to all hosts
+  hosts: all
+  become: yes
+  roles:
+    - hardening
+    - nginx

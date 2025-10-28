@@ -1,0 +1,4 @@
+- name: Ensure unattended-upgrades installed (example)
+  apt:
+    name: unattended-upgrades
+    state: present
